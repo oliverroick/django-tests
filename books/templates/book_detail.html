@@ -1,0 +1,7 @@
+<h1>Book Detail</h1>
+
+{% if book %}
+Title: {{ book.name }}
+{% else % }
+Book not found: {{ error }}
+{% endif %}
